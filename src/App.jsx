@@ -14,7 +14,7 @@ export default function App() {
   return (
     <div className="container">
 
-      {/* Login Form */}
+      {/* Form */}
       <div className="form">
 
         <h2>Login</h2>
@@ -59,13 +59,14 @@ export default function App() {
           </div>                   
         </form>
       </div>
-      {/* End Login Form */}
-      {/* Login Img */}
+      
+      
+      {/* Img */}
       <div className="login-img">
 
         <img src={ software } alt="Software img" />
       </div>
-      {/* End Login Img */}
+      
     </div>
   )
 }
